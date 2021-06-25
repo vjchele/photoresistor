@@ -5,5 +5,5 @@ basic.forever(function () {
     Math.max(0, 200 - light2),
     200
     )
-    serial.writeValue("x", light2)
+    serial.writeValue("light level", light2)
 })
